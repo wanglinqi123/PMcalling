@@ -26,7 +26,7 @@ java -cp . -jar PMcalling.jar \0
 --FixFreq 0.97 \
 --MisMatch 3 \
 --MisLen 30
---out test.vcf
+--out example
 ```
 
 #### Required Arguments:
