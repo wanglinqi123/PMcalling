@@ -26,7 +26,7 @@ java -cp . -jar PMcalling.jar \
 --FixFreq 0.97 \
 --MisMatch 3 \
 --MisLen 30 \
---out example
+--out example.vcf
 ```
 
 #### Required Arguments:
@@ -93,7 +93,7 @@ java -cp . -jar PMcalling.jar \
 
 **example.vcf.indel.vcf**, VCF file of the insertion–deletion mutations (indels) found in the pooled sample.
 
-**example.vcf.PM.vcf**, VCF file of the polymorphic mutations (PMs) found in the pooled sample.
+**example.vcf.vcf**, VCF file of the polymorphic mutations (PMs) found in the pooled sample.
 
 **example.vcf.PM.fasta**, the nucleotide sequences in the regions where PMs were found in the pooled sample.
 
@@ -107,6 +107,6 @@ java -cp . -jar PMcalling.jar \
 
 **example.vcf_iso.indel.vcf**, VCF file of the insertion–deletion mutations (indels) found in the isogenic control.
 
-**example.vcf_iso.PM.vcf**, VCF file of the polymorphic mutations (PMs) found in the isogenic control.
+**example.vcf_iso.vcf**, VCF file of the polymorphic mutations (PMs) found in the isogenic control.
 
 **example.vcf_iso.PM.fasta**, the nucleotide sequences in the regions where PMs were found in the isogenic control.
