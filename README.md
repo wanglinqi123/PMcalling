@@ -13,7 +13,7 @@ Mapping the NGS reads of the pooled sample and the isogenic control to the refer
 PMcalling can be installed and run on a computer with a Linux or macQS operating system and a Java runtime environment. PMcalling is simple to run with a single command (the recommended parameters are as follows): 
 
 ```
-java -cp . -jar PMcalling.jar \0
+java -cp . -jar PMcalling.jar \
 -P pooled.sort.bam \
 -R Reference.fa \
 --MLength 0.95 \
@@ -25,7 +25,7 @@ java -cp . -jar PMcalling.jar \0
 --FixDep 350 \
 --FixFreq 0.97 \
 --MisMatch 3 \
---MisLen 30
+--MisLen 30 \
 --out example
 ```
 
