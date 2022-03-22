@@ -7,8 +7,6 @@ PMcalling extracts information such as mutation sites and their frequencies in t
 
 ### 1. Prepare input files
 
-**1. Prepare input files**
-
 Mapping the NGS reads of the pooled sample and the isogenic control to the reference genome, the result files are then sorted according to the position of the reference genome sequence to obtain pooled.sort.bam and isogenic.sort.bam, which are used as the input files for PMcalling.
 
 ### **2. PMcalling usage and parameter description** 
