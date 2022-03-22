@@ -88,6 +88,8 @@ java -cp . -jar PMcalling.jar \
 **-b/--bed**: One or more genomic intervals over which to operate in bed file.(String).
 
 ### **3. Output files**
+[Pooled sample]
+
 
 **example.vcf.fixed.vcf**, VCF file of the fixed mutation sites found in the pooled sample.
 
@@ -101,7 +103,7 @@ java -cp . -jar PMcalling.jar \
 
 
 
-[Optional]
+[Isogenic control, if provided]
 
 **example.vcf_iso.fixed.vcf**, VCF file of the fixed mutation sites found in the isogenic control.
 
