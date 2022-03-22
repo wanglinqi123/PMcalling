@@ -1,5 +1,6 @@
 ## PMcalling
 
+PMcalling is a protocol for detecting low-frequency polymorphic mutations (PMs).
 PMcalling extracts information such as mutation sites and their frequencies in the pooled samples from the mapping results of the sample sequence to the reference genome into the result files and excludes false positive results that may come from sequencing errors, contamination by other species, and interference from genomic repeat regions. PMcalling can be used not only for the analysis of microbial community sample sin specific environments, but also for genomic differential locus analysis of eukaryotic mixed samples such as tumor tissues.
 
 ## Workflow
